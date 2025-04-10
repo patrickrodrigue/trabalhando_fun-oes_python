@@ -18,8 +18,7 @@ print(f"O número e:{randrange(1,100)}")
 from math import pow
 n1 =  int(input('Digite o primeiro número:'))
 n2 =  int(input('Digite o segundo número:'))
-
-# print(f"{n1} elevado a {n2} e  {pow(n1,n2)}")
+print(f"{n1} elevado a {n2} e  {pow(n1,n2)}")
 
 # 6. Um programa deve ser escrito para sortear uma pessoa seguidora de uma rede social para ganhar um prêmio. A lista de participantes é numerada e devemos escolher aleatoriamente um número de acordo com a quantidade de participantes. Peça à pessoa usuária para fornecer o número de participantes do sorteio e devolva para ela o número sorteado.
 from random import choice
@@ -28,3 +27,10 @@ numero = []
 for n in range(1, participantes + 1):
     numero.append(n)
 print(f"O numero sorteado foi:{choice(numero)}")
+
+# 7. Você recebeu uma demanda para gerar números de token para acessar o aplicativo de uma empresa. O token precisa ser par e variar de 1000 até 9998. Escreva um código que solicita à pessoa usuária o seu nome e exibe uma mensagem junto a esse token gerado aleatoriamente.
+#Olá, [nome], o seu token de acesso é [token]! Seja bem-vindo(a)!"
+from random import randrange
+nome = input('Qual e o seu nome?')
+tk =randrange(1000, 9998, 2)
+print(f"Olá, {nome}, o seu token de acesso é {tk}! Seja bem-vindo(a)!")
