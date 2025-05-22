@@ -25,7 +25,28 @@ lista = [8, 12, 54, 23, 43, 1, 90, 87, 105, 77]</h3>
 
 ![](assets/img/{86F6ADBF-D92C-4D11-B80B-242C417D8892}.png)
 
-<h3>Você recebeu uma demanda para gerar números de token para acessar o aplicativo de uma empresa. O token precisa ser par e variar de 1000 até 9998. Escreva um código que solicita à pessoa usuária o seu nome e exibe uma mensagem junto a esse token gerado aleatoriamente.<br>
+<h3>7 Você recebeu uma demanda para gerar números de token para acessar o aplicativo de uma empresa. O token precisa ser par e variar de 1000 até 9998. Escreva um código que solicita à pessoa usuária o seu nome e exibe uma mensagem junto a esse token gerado aleatoriamente.<br>
 "Olá, [nome], o seu token de acesso é [token]! Seja bem-vindo(a)!"</h3>
 
 ![](assets/img/{7236F57B-EEA9-4665-9809-26493BEA734F}.png)
+
+<h3>8 Para diversificar e atrair novos(as) clientes, uma lanchonete criou um item misterioso em seu cardápio chamado "salada de frutas surpresa". Neste item, são escolhidas aleatoriamente 3 frutas de uma lista de 12 para compor a salada de frutas da pessoa cliente.</h3>
+
+![](assets/img/{8902776C-8C2D-435B-91E9-1EB8F4F8F9D8}.png)
+
+<h3>9. Você recebeu um desafio de calcular a raiz quadrada de uma lista de números, identificando quais resultaram em um número inteiro. A lista é a seguinte:
+numeros = [2, 8, 15, 23, 91, 112, 256]  No final, informe quais números possuem raízes inteiras e seus respectivos valores.
+
+Dica: use a comparação entre a divisão inteira (//) da raiz por 1 com o valor da raiz para verificar se o número é inteiro.Saída:
+
+1.5 é inteiro? : False
+2 é inteiro? : True</h3>
+ ![](assets/img/{B310DEDC-003C-485E-A00C-CA57FC7234EB}.png)
+
+ <h3>10. Faça um programa para uma loja que vende grama para jardins. Essa loja trabalha com jardins circulares e o preço do metro quadrado da grama é de R$ 25,00. Peça à pessoa usuária o raio da área circular e devolva o valor em reais do quanto precisará pagar.
+
+Dica: use a variável pi e o método pow() da biblioteca math. O cálculo da área de um círculo é de: A = π*r^2 (lê-se pi vezes raio ao quadrado).
+
+Caso precise de ajuda, opções de solução das atividades estão disponíveis na seção “Opinião da pessoa instrutora”.</h3>
+
+![](assets/img/{41F8C1CD-82BE-4377-85A1-9CE0FDCF73F1}.png)
